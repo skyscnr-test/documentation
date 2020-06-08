@@ -1,0 +1,12 @@
+---
+version: '1'
+type: documentation
+
+component:
+  name: strata-documentation
+  owner: Cassini
+  description: documentation
+  personalDataHandling: none
+  soxScope: False
+  serviceClass: business-class
+  paymentProcessing: False
