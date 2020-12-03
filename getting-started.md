@@ -24,6 +24,6 @@ Starting a new Strata Repository is easy!
 
 ### using the strata cli 
 
-strata-cli init <repo-name>-strata
+```strata-cli init <repo-name>-strata```
 This will clone the strata-template repository which provides you with enough to get started. 
 

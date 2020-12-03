@@ -1,5 +1,5 @@
 In order to run the pipeline generation locally. You really need to replacate the behaviour of the CodeBuild project in the Account Orchestration account. 
-This can be done my running the following commands when logged in as INFX_access in the Account Orchestration account.
+This can be done by running the following commands when logged in as INFX_access in the Account Orchestration account.
 
 
 ```
@@ -24,3 +24,5 @@ python adf-build/cdk/generate_pipeline_inputs.py
 cdk synth --app adf-build/cdk/generate_pipeline_stacks.py
 cdk synth --app adf-build/cdk/generate_pipeline_stacks.py
 ```
+
+If you wish to make changes to the pipeline generation code, you can run the ```create_workbench.sh``` script in the aws-deployment-framework-bootstrap repository. 
